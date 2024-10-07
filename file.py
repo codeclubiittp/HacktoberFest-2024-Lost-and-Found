@@ -201,14 +201,14 @@ for found_item_name, found_item in found_items.items():
            
         #  # Exit loop after sending email
             except AttributeError:
-                print("Yaar url ki maa ki ")
+                print("Invalid URL ")
           
         #  send_email(subject, message, lost_item['email'])
         
         #  print(f"Email sent to {lost_item['email']} for lost item '{lost_item_name}'")
     #  change the email address to the email from which u want to send the email reply 
-    email_address = 'randomusermanas1@gmail.com'
-    email_password = 'evvljoypsecsqzgw'
+    email_address = 'testemail@gmail.com'
+    email_password = '<test_email_password>'
     
     message['From'] = email_address
     message['To'] = to_email
